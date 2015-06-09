@@ -88,7 +88,30 @@ header{
     margin-left:52px;
     height: 345px;
 }
+.news_img{
+    position: relative;
+    top: 16px;
+    left:64px;
+}
 .news_mid{
-    width: 40%;
+    width: 35%;
     float: left;
+    text-align: right;
+    margin-top: auto;
+    height: 345px;
+    margin-left: 20px;
+}
+.news_mid li{
+    position: relative;
+    font-size: 14px;
+    display: inline-block;
+    top: 9px;
+    padding-right: 10px;
+    height: 24px;
+    width: 58px;
+    right: 3px;
+}
+.news_mid li.current{
+    color: #fff;
+    background-color: #DB0004;
 }
